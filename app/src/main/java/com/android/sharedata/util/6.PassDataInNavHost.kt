@@ -31,6 +31,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 
+@ExperimentalMaterial3Api
 @Composable
 fun PassDataInNavHost() {
     var title by remember {
