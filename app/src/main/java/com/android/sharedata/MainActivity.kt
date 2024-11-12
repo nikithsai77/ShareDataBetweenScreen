@@ -7,6 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.android.sharedata.ui.theme.ShareDataTheme
 import com.android.sharedata.util.NavigationComposeWithOutRoute
+import com.android.sharedata.util.PassDataInNavHost
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -15,7 +16,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ShareDataTheme {
-                NavigationComposeWithOutRoute()
+                PassDataInNavHost()
             }
         }
     }
@@ -25,6 +26,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun MPreview() {
     ShareDataTheme {
-        NavigationComposeWithOutRoute()
+        PassDataInNavHost()
     }
 }
