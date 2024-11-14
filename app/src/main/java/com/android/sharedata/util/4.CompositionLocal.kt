@@ -14,7 +14,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import com.android.sharedata.ui.theme.ShareDataTheme
 
-//we can share data b/w composable with out passing parameter.
+//we can share data b/w composable with out Having parameter.
 val LocalComposition = compositionLocalOf {
     "Default Value"
 }

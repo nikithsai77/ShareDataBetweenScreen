@@ -1,4 +1,4 @@
-package com.android.sharedata.util
+package com.android.sharedata.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

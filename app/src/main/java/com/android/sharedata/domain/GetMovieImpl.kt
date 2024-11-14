@@ -2,7 +2,7 @@ package com.android.sharedata.domain
 
 import com.android.sharedata.data.Movie
 
-class GetMovieImpl(): GetMovie {
+class GetMovieImpl : GetMovie {
     private var movie: Movie? = null
 
     override fun getMovie(): String {

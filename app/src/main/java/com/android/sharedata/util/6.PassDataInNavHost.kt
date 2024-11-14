@@ -51,7 +51,7 @@ fun PassDataInNavHost() {
             navigationIcon = {
                 if (title.equals(other = "Screen2", ignoreCase = true)) {
                     Icon(imageVector = Icons.Filled.ArrowBack, contentDescription = "Back",
-                        modifier = Modifier.clickable {  }
+                        modifier = Modifier.clickable {  navController.popBackStack() }
                     )
                 }
             }
